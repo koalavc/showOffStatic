@@ -4,6 +4,13 @@ import { RoutingComponents, RoutingModule } from './app.routing.module';
 
 import { AppComponent } from './app.component';
 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+
+@NgModule({
+  
+  imports: [BsDropdownModule.forRoot()]
+})
+
 @NgModule({
   declarations: [
     AppComponent, RoutingComponents,
